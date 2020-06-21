@@ -1,0 +1,83 @@
+.CoverPage {
+  width: 100%;
+  height: 88vh;
+  margin-top: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f9fe;
+  padding: 0 5vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.textSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Heading {
+  display: flex;
+  font-family: "Oswald", sans-serif;
+}
+.Heading > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading > div:nth-child(1) > h1 {
+  font-size: 84px;
+  font-weight: 700;
+  color: #50658e;
+}
+
+.Heading > div:nth-child(2) > div:nth-child(1) {
+}
+.Heading > div:nth-child(2) > div:nth-child(1) > h1 {
+  font-size: 28px;
+  color: #f86168;
+  margin-bottom: -10px;
+}
+.Heading > div:nth-child(2) > div:nth-child(2) {
+}
+.Heading > div:nth-child(2) > div:nth-child(2) > h1 {
+  font-size: 40px;
+  color: #50658e;
+  padding-top: 0px;
+}
+.punchLine p {
+  font-size: 17px;
+  margin: 20px 0px;
+}
+.buttons {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.buttons > button {
+  border: none;
+  border-radius: 20px;
+  background-color: #1468cd;
+  padding: 12px 28px;
+  color: #fff;
+  font-size: 17px;
+}
+.buttons a {
+  color: #1468cd;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.imgSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.imgSection img {
+  width: 100%;
+}

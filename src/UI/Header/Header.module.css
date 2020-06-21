@@ -1,0 +1,49 @@
+.Header {
+  width: 100%;
+  height: 12vh;
+  background-color: #f7f9fe;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+}
+.newHeader {
+  width: 100%;
+  height: 12vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+}
+
+.Header a,
+.newHeader a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.active {
+  background-color: #1468cd;
+  padding: 9px 30px;
+  border-radius: 20px;
+  color: #fff !important;
+}
+.logo a {
+  padding-left: 0;
+}
+.Header a:hover,
+.newHeader a:hover {
+  color: #3d434e;
+}
+
+.PageLinks {
+  display: flex;
+}

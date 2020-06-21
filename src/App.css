@@ -1,6 +1,15 @@
+:root {
+  --theme-color-one: #a56cc1;
+  --theme-color-two: #a6acec;
+  --theme-color-three: #ace7ef;
+  --theme-color-four: #cefff1;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: "Raleway", sans-serif;
-  background-color: #3ae374;
-  /* #ff4d4d red  */
-  /* #7158e2 purpole  */
+  font-family: "Roboto", sans-serif;
+  background-color: var(--theme-color-three);
 }
