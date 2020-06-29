@@ -12,4 +12,9 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--theme-color-three);
+  color: #3d4b69;
+}
+
+.Skeleton {
+  /* background-color: red; */
 }
