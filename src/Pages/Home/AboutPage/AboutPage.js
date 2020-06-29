@@ -1,6 +1,6 @@
 import React from "react";
 import styling from "./AboutPage.module.css";
-import intro from "../../../images/whatiscovid.png";
+// import intro from "../../../images/whatiscovid.png";
 import { FaCaretRight } from "react-icons/fa";
 
 export default function AboutPage() {

@@ -1,9 +1,9 @@
 import React from "react";
 import styling from "./CoverPage.module.css";
 import image from "../../../images/header-a.png";
-import coronaIcon from "../../../images/corona.png";
-import { FaFan, FaCaretRight } from "react-icons/fa";
-import Skeleton from "../../../Skeleton";
+// import coronaIcon from "../../../images/corona.png";
+import { FaCaretRight } from "react-icons/fa";
+// import Skeleton from "../../../Skeleton";
 
 export default function CoverPage() {
   return (
