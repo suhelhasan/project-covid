@@ -11,11 +11,11 @@ export default function AboutPage() {
         <div>
           <div>What you need to know</div>
           <div>
-            <a href="njk">How corona virus spread</a>
+            <a href="#spread">How corona virus spread</a>
             <FaCaretRight />
           </div>
           <div>
-            <a href="njk">Symptoms of coronavirus</a>
+            <a href="#symptoms">Symptoms of coronavirus</a>
             <FaCaretRight />
           </div>
           <div>

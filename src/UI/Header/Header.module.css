@@ -12,7 +12,9 @@
 .newHeader {
   width: 100%;
   height: 12vh;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1); */
+
   background-color: #fff;
   position: fixed;
   top: 0;
