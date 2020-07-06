@@ -48,6 +48,7 @@
   box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1);
   border-radius: 5px;
 }
+
 .ImageSection h3 {
   color: #1468cd;
   margin: 5% 5% 0% 5%;
@@ -58,9 +59,18 @@
 .ImageSection img {
   width: 100%;
 }
+.ImageSection > .addClassForBg {
+  box-shadow: none;
+  text-align: center;
+  height: 80%;
+}
+
 .ImageSection > div > .addClassForImg {
   border-radius: 50%;
   width: 50%;
   height: 45%;
   box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1);
+}
+.ImageSection > .addClassForBg > .addClassForImg {
+  height: 48%;
 }

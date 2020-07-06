@@ -1,14 +1,12 @@
 import React from "react";
 import styling from "./CoverPage.module.css";
-import image from "../../../images/header-a.png";
-// import coronaIcon from "../../../images/corona.png";
+import image from "../../../images/Cover-Page/main-image.png";
 import { FaCaretRight } from "react-icons/fa";
-// import Skeleton from "../../../Skeleton";
 
 export default function CoverPage() {
   return (
     // <Skeleton>
-    <div className={styling.CoverPage}>
+    <div className={styling.CoverPage} id="coverPage">
       <div className={styling.textSection}>
         <div className={styling.Heading}>
           <div>

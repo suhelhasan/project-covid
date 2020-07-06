@@ -76,6 +76,7 @@
 .TextSection p {
   font-size: 17px;
   margin: 5px 0;
+  line-height: 23px;
 }
 .TextSection > div:first-child > h3 {
   color: #1468cd;

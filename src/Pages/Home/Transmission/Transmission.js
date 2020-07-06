@@ -1,7 +1,7 @@
 import React from "react";
-import symptom1 from "../../../images/cough.png";
-import symptom2 from "../../../images/contacting.png";
-import symptom3 from "../../../images/person.png";
+import symptom1 from "../../../images/Transmission/cough.png";
+import symptom2 from "../../../images/Transmission/contacting.png";
+import symptom3 from "../../../images/Transmission/person.png";
 import Transmissio from "../../../UI/ReusablePage/ReusablePage";
 export default function Transmission() {
   return (

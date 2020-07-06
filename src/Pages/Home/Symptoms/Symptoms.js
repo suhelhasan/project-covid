@@ -1,8 +1,8 @@
 import React from "react";
 import Transmission from "../../../UI/ReusablePage/ReusablePage";
-import symptom1 from "../../../images/symptom1.png";
-import symptom2 from "../../../images/symptom2.png";
-import symptom3 from "../../../images/symptom3.png";
+import symptom1 from "../../../images/Symptom/symptom1.png";
+import symptom2 from "../../../images/Symptom/symptom2.png";
+import symptom3 from "../../../images/Symptom/symptom3.png";
 
 export default function Symptoms() {
   return (

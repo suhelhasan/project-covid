@@ -1,0 +1,54 @@
+.HandWash {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f9fe;
+  padding: 5vh 5vw;
+  font-family: "Roboto", sans-serif;
+}
+.TextSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40%;
+}
+.TextSection h1 {
+  font-size: 40px;
+  color: #465675;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+.TextSection h3 {
+  color: #1468cd;
+}
+.ImageSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  text-align: center;
+}
+.ImageSection div {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ImageSection img {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1);
+}
+.ImageSection h4 {
+  margin-top: 15px;
+}

@@ -1,13 +1,11 @@
 import React from "react";
 import styling from "./AboutPage.module.css";
-// import intro from "../../../images/whatiscovid.png";
 import { FaCaretRight } from "react-icons/fa";
 
 export default function AboutPage() {
   return (
     <div className={styling.AboutPage}>
       <div className={styling.ImageSection}>
-        {/* <img src={intro} alt="" /> */}
         <div>
           <div>What you need to know</div>
           <div>

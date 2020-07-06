@@ -1,0 +1,38 @@
+.Footer {
+  background-color: #151c2e;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  padding: 5vh 5vw;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+.Footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25%;
+  height: 85%;
+}
+.Footer img {
+  width: 55%;
+}
+.Footer h3 {
+  color: rgb(204, 200, 200);
+  font-family: "Oswald", sans-serif;
+}
+.Footer p {
+  color: rgb(204, 200, 200);
+}
+.Footer a {
+  color: rgb(141, 140, 140);
+  text-decoration: none;
+}
+.Footer a:hover {
+  color: rgb(204, 200, 200);
+}
+.additional {
+  align-items: flex-end;
+  padding-right: 10px;
+}

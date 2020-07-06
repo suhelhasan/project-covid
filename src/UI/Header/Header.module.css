@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 5vw;
+  z-index: 10000000;
 }
 .newHeader {
   width: 100%;
