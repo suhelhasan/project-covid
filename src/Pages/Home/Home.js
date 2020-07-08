@@ -9,6 +9,8 @@ import TakeSteps from "./Take-steps/TakeSteps";
 import Handwash from "./HandWash/HandWash.js";
 import Treatment from "./Treatment/Treatment";
 import DoDonts from "./DoDonts/DoDonts";
+import { Link } from "react-router-dom";
+import updatesLogo from "../../images/updates-logo.png";
 
 export default function Home() {
   return (
@@ -22,6 +24,11 @@ export default function Home() {
       <Handwash />
       <Treatment />
       <DoDonts />
+      <div className={styling.moveTo}>
+        <Link to="/cases">
+          <img src={updatesLogo} alt="" srcset="" />
+        </Link>
+      </div>
     </div>
   );
 }

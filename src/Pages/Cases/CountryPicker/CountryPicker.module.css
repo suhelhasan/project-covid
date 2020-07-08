@@ -1,0 +1,16 @@
+.CountryPicker {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CountryPicker > select {
+  width: 30%;
+  height: 6vh;
+  font-size: 17px;
+  border: none;
+  border-bottom: 1px solid #056cc4;
+}
+select:focus {
+  outline: none;
+}
