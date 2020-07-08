@@ -5,7 +5,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function TakeSteps() {
   return (
-    <div className={styling.TakeSteps}>
+    <div className={styling.TakeSteps} id="TakeSteps">
       <div>
         <div className={styling.imageSection}>
           <img src={doctorImage} alt="" />

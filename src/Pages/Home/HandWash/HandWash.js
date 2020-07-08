@@ -16,28 +16,34 @@ export default function HandWash() {
       </div>
       <div className={styling.ImageSection}>
         <div>
-          <img src={hand1} alt="" srcset="" />
-          <h4>Focus on Wrist</h4>
+          <div>
+            <img src={hand1} alt="" srcset="" />
+            <h4>Focus on Wrist</h4>
+          </div>
+          <div>
+            <img src={hand2} alt="" srcset="" />
+            <h4>Clean with Water</h4>
+          </div>
         </div>
         <div>
-          <img src={hand2} alt="" srcset="" />
-          <h4>Clean with Water</h4>
+          <div>
+            <img src={hand3} alt="" srcset="" />
+            <h4>Back to Hands</h4>
+          </div>
+          <div>
+            <img src={hand4} alt="" srcset="" />
+            <h4>Between Fingers</h4>
+          </div>
         </div>
         <div>
-          <img src={hand3} alt="" srcset="" />
-          <h4>Back to Hands</h4>
-        </div>
-        <div>
-          <img src={hand4} alt="" srcset="" />
-          <h4>Between Fingers</h4>
-        </div>
-        <div>
-          <img src={hand5} alt="" srcset="" />
-          <h4>Palm to Palm</h4>
-        </div>
-        <div>
-          <img src={hand6} alt="" srcset="" />
-          <h4>Soap on Hand</h4>
+          <div>
+            <img src={hand5} alt="" srcset="" />
+            <h4>Palm to Palm</h4>
+          </div>
+          <div>
+            <img src={hand6} alt="" srcset="" />
+            <h4>Soap on Hand</h4>
+          </div>
         </div>
       </div>
     </div>

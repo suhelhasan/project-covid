@@ -50,3 +50,63 @@
 .boldText {
   font-weight: bolder;
 }
+@media screen and (max-width: 680px) {
+  .TakeSteps {
+    /* width: 100%; */
+    height: 160vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* justify-content: center;
+  align-items: center;
+  background-color: #f7f9fe;
+  padding: 5vh 5vw;
+  font-family: "Roboto", sans-serif;
+  color: #3d4b69; */
+  }
+  .TakeSteps > div {
+    /* background-color: #fff;
+    width: 100%; */
+    height: 160vh;
+    flex-direction: column;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-justify: auto; */
+    /* border: 1px solid red; */
+  }
+
+  .imageSection {
+    width: 90%;
+    height: 40%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    order: 2;
+  }
+  .imageSection img {
+    height: 100%;
+    /* width: 100%; */
+  }
+  /* .checkIcon {
+    color: #3dca93;
+    margin-right: 10px;
+  } */
+  .textSection {
+    width: 90%;
+    height: 60%;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    order: 1;
+  }
+  /* .textSection > div {
+    display: flex;
+    font-size: 16px;
+    line-height: 23px;
+  } */
+  /* .boldText {
+    font-weight: bolder;
+  } */
+}

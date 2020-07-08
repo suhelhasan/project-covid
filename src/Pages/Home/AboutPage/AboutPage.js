@@ -17,19 +17,19 @@ export default function AboutPage() {
             <FaCaretRight />
           </div>
           <div>
-            <a href="njk">How to protect yourself</a>
+            <a href="#prevention">Prevention & Advice</a>
             <FaCaretRight />
           </div>
           <div>
-            <a href="njk">Treatment of coronavirus</a>
+            <a href="#treatment">Treatment of coronavirus</a>
             <FaCaretRight />
           </div>
           <div>
-            <a href="njk">Myth-Busters of coronavirus</a>
+            <a href="#TakeSteps">Myth-Busters of coronavirus</a>
             <FaCaretRight />
           </div>
           <div>
-            <a href="njk">Questions & Answers</a>
+            <a href="#protectYourself">How to protect yourself</a>
             <FaCaretRight />
           </div>
         </div>

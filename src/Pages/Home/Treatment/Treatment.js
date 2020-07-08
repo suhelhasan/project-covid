@@ -4,7 +4,7 @@ import { FaCaretRight } from "react-icons/fa";
 
 export default function Treatment() {
   return (
-    <div className={styling.Treatment}>
+    <div className={styling.Treatment} id="treatment">
       <div className={styling.TreatmentBox}>
         <div>
           <h3>Self Care</h3>

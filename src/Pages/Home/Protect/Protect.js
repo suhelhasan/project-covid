@@ -7,7 +7,7 @@ import symptom4 from "../../../images/Protect/advice4.png";
 
 export default function Protect() {
   return (
-    <div id="symptoms">
+    <div id="prevention">
       <Transmission
         addClassForImg="additionClassForImages"
         addClassForMultiple="addClassForBg"

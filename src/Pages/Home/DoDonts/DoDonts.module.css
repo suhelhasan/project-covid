@@ -91,3 +91,117 @@
 .MainImage img {
   width: 90%;
 }
+@media screen and (max-width: 680px) {
+  .DoDonts {
+    /* width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f9fe; */
+    padding: 2vh 2vw;
+    height: 130vh;
+    /* font-family: "Roboto", sans-serif; */
+  }
+  .TextSection {
+    width: 100%;
+    height: 25%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* border: 1px solid red; */
+  }
+  .TextSection h1 {
+    /* font-family: "Oswald", sans-serif;
+    color: #50658e; */
+    font-size: 30px;
+  }
+  .TextSection h3 {
+    color: #1468cd;
+    font-size: 17px;
+  }
+  .TextSection p {
+    line-height: 19px;
+  }
+  .imageSection {
+    /* width: 100%; */
+    height: 75%;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+  .Dos {
+    order: 2;
+  }
+  .Donts {
+    order: 3;
+  }
+  .Donts,
+  .Dos {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: space-around;
+    align-items: center; */
+  }
+
+  .Donts > div,
+  .Dos > div {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; */
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+  .Donts img,
+  .Dos img {
+    /* border: 2px solid #2a81ea;
+    border-radius: 50%; */
+    width: 60%;
+  }
+  .DoDonts h4 {
+    /* text-align: center; */
+    width: 100%;
+    /* color: #2a81ea; */
+  }
+  .DosLogo {
+    position: absolute;
+    color: green;
+    left: 35px;
+    top: 20%;
+    font-size: 22px;
+    background-color: #fff;
+    width: 23px;
+    height: 23px;
+  }
+  .DontLogo {
+    position: absolute;
+    color: red;
+    left: 35px;
+    top: 9%;
+    font-size: 22px;
+    background-color: #fff;
+    width: 23px;
+    height: 23px;
+  }
+  .MainImage {
+    order: 1;
+    width: 90%;
+    /* height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid red; */
+  }
+  .MainImage img {
+    width: 100%;
+  }
+}

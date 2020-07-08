@@ -58,3 +58,71 @@
   color: #73e3ff;
   font-family: "Oswald", sans-serif;
 }
+@media screen and (max-width: 680px) {
+  .Treatment {
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-content: space-between;
+    align-items: center;
+    background-color: #2766bb;
+    padding: 5vh 8vw;
+    font-family: "Roboto", sans-serif;
+    color: aliceblue; */
+    padding: 2vh 4vw;
+  }
+  .TreatmentBox {
+    /* background-color: #1b47a1; */
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px; */
+  }
+  /* .TreatmentBox > div:first-child {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .TreatmentBox > div:last-child {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  } */
+  /* .TreatmentBox h3 {
+    font-family: "Oswald", sans-serif;
+  } */
+  .TreatmentText {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: justify;
+    text-align: right; */
+  }
+  .TreatmentText h1 {
+    /* font-family: "Oswald", sans-serif; */
+    font-size: 30px;
+  }
+  .TreatmentText p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  /* .TreatmentText h3 {
+    color: #73e3ff;
+    font-family: "Oswald", sans-serif;
+  } */
+}

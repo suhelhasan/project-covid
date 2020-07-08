@@ -11,7 +11,7 @@ import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 
 export default function DoDonts() {
   return (
-    <div className={styling.DoDonts}>
+    <div className={styling.DoDonts} id="protectYourself">
       <div className={styling.TextSection}>
         <h3>DO’S & DON’TS</h3>
         <h1>PROTECT YOURSELF</h1>

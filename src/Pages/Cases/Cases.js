@@ -34,7 +34,7 @@ export default function Cases() {
   let handleCountryChange = async (countryName) => {
     setCountry(countryName);
   };
-
+  // console.log(data);
   return (
     <div className={styling.Cases}>
       <Cards data={data} />

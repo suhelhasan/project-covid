@@ -9,6 +9,7 @@
   height: 6vh;
   font-size: 17px;
   border: none;
+  background-color: #f7f9fe;
   border-bottom: 1px solid #056cc4;
 }
 select:focus {

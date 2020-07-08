@@ -74,3 +74,84 @@
 .ImageSection > .addClassForBg > .addClassForImg {
   height: 48%;
 }
+
+@media screen and (max-width: 680px) {
+  .Transmission {
+    /* width: 100%; */
+    height: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f9fe;
+    padding: 5vh 5vw;
+    font-family: "Roboto", sans-serif; */
+  }
+
+  .TextSection {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+  .TextSection h3 {
+    /* color: #1468cd; */
+    font-size: 15px;
+  }
+  .TextSection h1 {
+    /* font-family: "Oswald", sans-serif;
+    color: #50658e; */
+    font-size: 30px;
+  }
+  .TextSection p {
+    font-size: 16px;
+  }
+  .ImageSection {
+    /* width: 100%;
+    height: 65%;
+    display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center; */
+  }
+  .ImageSection > div {
+    width: 90%;
+    margin: 20px 0;
+    /* height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1);
+    border-radius: 5px; */
+  }
+
+  .ImageSection h3 {
+    color: #1468cd;
+    margin: 5% 5% 0% 5%;
+  }
+  .ImageSection p {
+    margin: 3% 5% 0% 5%;
+  }
+  .ImageSection img {
+    width: 100%;
+  }
+  .ImageSection > .addClassForBg {
+    box-shadow: none;
+    text-align: center;
+    height: 80%;
+  }
+
+  .ImageSection > div > .addClassForImg {
+    border-radius: 50%;
+    width: 50%;
+    height: 45%;
+    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1);
+  }
+  .ImageSection > .addClassForBg > .addClassForImg {
+    height: 48%;
+  }
+}
