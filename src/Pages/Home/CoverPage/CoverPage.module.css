@@ -66,10 +66,17 @@
   color: #fff;
   font-size: 17px;
 }
+.buttons > button:focus {
+  outline: none;
+}
 .buttons a {
   color: #1468cd;
   text-decoration: none;
   margin-left: 20px;
+}
+.buttons > button > a {
+  color: #fff;
+  margin-left: 0;
 }
 .imgSection {
   width: 50%;
@@ -93,6 +100,8 @@
     padding: 0 5vw;
     font-family: "Roboto", sans-serif; */
     flex-direction: column;
+    margin-top: 9vh;
+    height: 91vh;
   }
 
   .textSection {
@@ -129,28 +138,31 @@
     /* color: #50658e;
     padding-top: 0px; */
   }
-  /* .punchLine p {
-    font-size: 17px;
-    margin: 20px 0px;
-  } */
+  .punchLine p {
+    font-size: 15px;
+    margin: 15px 0px;
+  }
   /* .buttons {
     margin: 20px 0px;
     display: flex;
     align-items: center;
   } */
-  /* .buttons > button {
-    border: none;
+  .buttons h3 {
+    font-size: 15px;
+  }
+  .buttons > button {
+    /* border: none; */
     border-radius: 20px;
-    background-color: #1468cd;
-    padding: 12px 28px;
-    color: #fff;
-    font-size: 17px;
-  } */
-  /* .buttons a {
-    color: #1468cd;
-    text-decoration: none;
-    margin-left: 20px;
-  } */
+    /* background-color: #1468cd; */
+    padding: 12px 22px;
+    /* color: #fff; */
+    font-size: 14px;
+  }
+  .buttons a {
+    /* color: #1468cd;
+    text-decoration: none; */
+    /* margin-left: 20px; */
+  }
   .imgSection {
     width: 80%;
     /* height: 100%;

@@ -4,7 +4,7 @@ import { FaCaretRight } from "react-icons/fa";
 
 export default function AboutPage() {
   return (
-    <div className={styling.AboutPage}>
+    <div className={styling.AboutPage} id="about">
       <div className={styling.ImageSection}>
         <div>
           <div>What you need to know</div>

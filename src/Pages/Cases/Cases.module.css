@@ -8,3 +8,15 @@
   background-color: #f7f9fe;
   padding: 14vh 5vw 0 5vw;
 }
+@media screen and (max-width: 680px) {
+  .Cases {
+    width: 100%;
+    height: auto;
+    /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f9fe;
+  padding: 14vh 5vw 0 5vw; */
+  }
+}

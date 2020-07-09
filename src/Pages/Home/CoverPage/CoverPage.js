@@ -29,9 +29,11 @@ export default function CoverPage() {
           </p>
         </div>
         <div className={styling.buttons}>
-          <button>How to Protect</button>
+          <button>
+            <a href="#treatment">How to Protect</a>
+          </button>
           <h3>
-            <a href="home page">
+            <a href="#about">
               About COVID-19 <FaCaretRight />
             </a>
           </h3>
