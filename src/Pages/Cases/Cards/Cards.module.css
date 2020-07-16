@@ -47,12 +47,6 @@
     width: 100%;
     height: 80vh;
     flex-direction: column;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #f7f9fe;
-    font-family: "Roboto", sans-serif;
-    text-align: center; */
   }
   .Cards p {
     font-weight: bold;
@@ -61,32 +55,5 @@
     width: 90%;
     height: 100%;
     margin: 13px 0;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 0.1), 0 6px 20px 0 rgba(7, 7, 7, 0.1); */
   }
-  /* .Card1 {
-    border-bottom: 4px solid #056cc4;
-  }
-  .Card1 h2:first-child,
-  .Card1 h4 {
-    color: #056cc4;
-  }
-  .Card2 {
-    border-bottom: 4px solid #3dca93;
-  }
-  .Card2 h2:first-child,
-  .Card2 h4 {
-    color: #3dca93;
-  }
-  .Card3 {
-    border-bottom: 4px solid #ff5363;
-  }
-  .Card3 h2:first-child,
-  .Card3 h4 {
-    color: #ff5363;
-  } */
 }

@@ -17,11 +17,6 @@ select:focus {
 }
 @media screen and (max-width: 680px) {
   .CountryPicker {
-    /* width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin: 15px 0; */
     padding: 15px 0px;
   }
   .CountryPicker > select {
@@ -32,7 +27,4 @@ select:focus {
     background-color: #f7f9fe;
     border-bottom: 1px solid #056cc4;
   }
-  /* select:focus {
-    outline: none;
-  } */
 }

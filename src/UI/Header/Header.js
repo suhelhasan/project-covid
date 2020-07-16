@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import styling from "./Header.module.css";
-import logo from "../../images/logo1.png";
+import logo from "../../images/logo.png";
 
 export default function Header() {
   // CHANGING NAVBAR ON SCROLL

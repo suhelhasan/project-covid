@@ -39,9 +39,9 @@
   border-radius: 20px;
   color: #fff !important;
 }
-.logo img {
+/* .logo img {
   width: 43%;
-}
+} */
 .logo a {
   padding-left: 0;
 }
@@ -96,7 +96,7 @@
     color: #fff !important; */
   }
   .logo img {
-    width: 35%;
+    width: 70%;
   }
   /* .logo a {
     padding-left: 0;
